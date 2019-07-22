@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Triangle Tracker</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+</head>
+<body>
+  <div class="container">
+    <h1>Triangle Tracker</h1>
+    <p>Enter 3 sides and we'll return what kind of triangle it is!</p>
+
+    <form action="/triangle_answer" method="post">
+      <div class="form-group">
+        <label for="side 1">Enter side one</label>
+        <input name="side 1" class="form-control" type="number">
+        <label for="side 2">Enter side two</label>
+        <input name="side 2" class="form-control" type="number">
+        <label for="side 3">Enter side three</label>
+        <input name="side 3" class="form-control" type="number">
+      </div>
+      <button type="submit" class="btn">Check Triangle</button>
+    </form>
+
+  </div>
+</body>
+</html>
